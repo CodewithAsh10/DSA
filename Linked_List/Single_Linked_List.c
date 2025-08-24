@@ -49,7 +49,7 @@ void createlist(int n) {
 void printList(node *head) {
     node *current = head;
     while (current != 0) {
-        printf("%d ", current->data);
+        printf("%d ->", current->data);
         current = current->next;
     }
     printf("NULL \n");
@@ -68,3 +68,4 @@ int main() {
 
     return 0;
 }
+
